@@ -1,0 +1,85 @@
+body {
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  font-family: "Oxygen", sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #999;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-header {
+  height: 75px;
+}
+
+.navbar-brand h1 { /*RESTAURANT NAME*/
+  font-family: 'Oxygen', serif;
+  color: #333;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  padding: 8px 25px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #333;
+}
+.navbar-header button.navbar-toggle{
+  clear: both;
+  margin: -28px 10px 5px;
+}
+.navbar-nav {
+  margin: 0 -15px;
+}
+/*END HEADER*/
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.col-grey {
+  background-color: #999;
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  /*min-height: 1000px;*/
+}
+
+
+/* MEDIUM DEVICES ONLY */
+@media (min-width: 992px) {
+
+}
+
+/* SMALL DEVICES ONLY */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* EXTRA SMALL DEVICES ONLY */
+@media (max-width: 767px) {
+  #collapseable-nav a {
+    font-size: 18px;
+    border-bottom: 1px solid black;
+  }
+  .navbar-default .navbar-nav > li > a {
+    color: black;
+    text-align: center;
+    background-color: #fff;
+  }
+}
